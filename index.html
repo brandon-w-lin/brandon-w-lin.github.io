@@ -13,6 +13,11 @@
 	<link rel="stylesheet" href="assets/css/main.css" />
 </head>
 
+<style>
+	figcaption {
+		justify-content: center;
+	}
+</style>
 <body class="is-preload">
 
 	<!-- Header -->
@@ -43,7 +48,18 @@
 			</p>
 			<ul class="actions">
 				<li><a href="#" class="button">Learn More</a></li>
+				<li><a href="#" class="button">My resume</a></li>
 			</ul>
+			<h3>Let's have a conversation about:</h3>
+			<ul>
+				<li>Your pets, my pets, other people's pets (and pictures of them)</li>
+				<li>Why bikes are better than cars</li>
+				<li>Which type of pizza is best</li>
+				<li>Having an existential crisis after reading about the <a href="https://waitbutwhy.com/2014/05/fermi-paradox.html">fermi paradox</a></li>
+				<li>Personal finance stuff like financial independence, investing, or tax strategies</li>
+			</ul>
+			<img src="./images/Archer.jpeg" class="image fit" alt="Picture of my good boy">
+				<figcaption>My good boy, Archer</figcaption>
 		</section>
 
 		<!-- Two -->
@@ -90,22 +106,41 @@
 				<li><a href="Portfolio.html" class="button">Full Portfolio</a></li>
 			</ul>
 		</section>
+		
+		<section id="two">
+			<h2>What I'm Reading</h2>
+			<div class="row">
+				<article class="col-6 col-12-xsmall work-item">
+					<a href="https://books.google.com/books/about/Design_Patterns_in_Ruby.html?id=QWOWqHANWoAC&source=kp_book_description" class="image fit thumb"><img
+							src="https://m.media-amazon.com/images/I/41BfqS7ecCS._AC_SY780_.jpg"
+							alt="" /></a>
+					<h3>Design Patterns in Ruby</h3>
+					<p>Russ Olsen</p>
+				</article>
+				<article class="col-6 col-12-xsmall work-item">
+					<a href="https://www.google.com/books/edition/Getting_Things_Done/7PoYBAAAQBAJ?hl=en&gbpv=0" class="image fit thumb"><img
+							src="https://books.google.com/books/publisher/content?id=7PoYBAAAQBAJ&pg=PP1&img=1&zoom=3&hl=en&bul=1&sig=ACfU3U1Hh-cld9EZt3tgkez99sZQQ9Jhgw&w=1280"
+							alt="" /></a>
+					<h3>Getting Things Done</h3>
+					<p>David Allen</p>
+				</article>
+		</section>
 
 		<!-- Three -->
 		<section id="three">
 			<h2>Get In Touch</h2>
 			<div class="row">
 				<div class="col-8 col-12-small">
-					<form method="post" action="https://formspree.io/f/mayvdbwo">
+					<form method="POST" action="https://formspree.io/f/mayvdbwo">
 						<div class="row gtr-uniform gtr-50">
 							<div class="col-6 col-12-xsmall"><input type="text" name="name" id="name" placeholder="Name" /></div>
 							<div class="col-6 col-12-xsmall"><input type="email" name="email" id="email" placeholder="Email" /></div>
 							<div class="col-12"><textarea name="message" id="message" placeholder="Message" rows="4"></textarea></div>
+							<div class="actions">
+								<input type="submit" value="Send Message" />
+							</div>
 						</div>
 					</form>
-					<ul class="actions">
-						<li><input type="submit" value="Send Message" /></li>
-					</ul>
 				</div>
 				<div class="col-4 col-12-small">
 					<ul class="labeled-icons">
